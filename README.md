@@ -24,7 +24,7 @@ Say what the step will be to install the package
 End with an example of getting some data out of the system or using it
 for a little demo
 
-```
+```JS
 import SpeechNarrator from 'speech-synthesizer-react'
 
 function App() {
@@ -70,4 +70,5 @@ This project is licensed under the [ license: ISC]
 
 - Hat tip to anyone whose code is used
 - Inspiration for us
+
 # speech-synthesizer-react
