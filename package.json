@@ -1,19 +1,9 @@
 {
-  "name": "speech-synthesis-react",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
+  "name": "speech-synthesizer-react",
+  "version": "1.0.0",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "webpack",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -34,5 +24,33 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Make your own audio narrator just writing one line of code.",
+  "main": "./build/index.js",
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.19.0",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavel-genuine/speech-synthesizer-react.git"
+  },
+  "keywords": [
+    "speech",
+    "synthesis",
+    "audio",
+    "narration"
+  ],
+  "author": "pavel-genuine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavel-genuine/speech-synthesizer-react/issues"
+  },
+  "homepage": "https://github.com/pavel-genuine/speech-synthesizer-react#readme"
 }
