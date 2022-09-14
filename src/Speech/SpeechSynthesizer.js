@@ -53,9 +53,7 @@ const SpeechNarrator = ({ text = "speech synthesis react" }) => {
     return (
       <p>
         {start}
-        <span style={{ backgroundColor: "#00ff51ab", fontWeight: "600" }}>
-          {highlight}
-        </span>
+        <span style={{ backgroundColor: "#00ff51ab" }}>{highlight}</span>
         {finish}
       </p>
     );

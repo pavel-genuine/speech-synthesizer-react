@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import SpeechNarrator from "./Speech/SpeechSynthesizer";
+import Sythesizer from "./Speech/Synthesis";
 
 function App() {
   return (
     <div>
-      <SpeechNarrator></SpeechNarrator>
+      <Sythesizer></Sythesizer>
     </div>
   );
 }

@@ -3,7 +3,7 @@
 Make your own audio narrator just writing one line of code.
 
 Check a simple
-[Demo here](https://github.com/pavel-genuine).
+[Demo here](https://speech-synthesizer-react.netlify.app/).
 
 ## Getting Started
 
