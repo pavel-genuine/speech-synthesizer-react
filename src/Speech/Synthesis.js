@@ -1,4 +1,6 @@
-import SpeechNarrator from "speech-synthesizer-react";
+// import SpeechNarrator from "speech-synthesizer-react";
+
+import SpeechNarrator from "./SpeechSynthesizer";
 
 function Sythesizer() {
   const text = `Today lets a simple discussion on two very basic and essential linear data structures every programmer should know… Array and Linked list

@@ -75,6 +75,7 @@ const SpeechNarrator = ({ text = "speech synthesis react" }) => {
                   border: "none",
                   color: "green",
                   fontWeight: "bold",
+                  cursor:'pointer'
                 }}
                 onClick={() => {
                   handlePause();
@@ -111,6 +112,7 @@ const SpeechNarrator = ({ text = "speech synthesis react" }) => {
                   border: "none",
                   color: "green",
                   fontWeight: "bold",
+                   cursor:'pointer'
                 }}
                 onClick={() => {
                   handleListen();
